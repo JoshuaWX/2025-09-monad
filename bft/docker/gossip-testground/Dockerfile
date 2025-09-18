@@ -12,7 +12,7 @@ RUN python3 docker/gossip-testground/topology-gen.py topo.json
 RUN python3 monad-scripts/tc/tc-gen.py topo.json tc.sh addresses
 
 # Runner
-FROM debian:buster-slim
+FROM debian:13.1-slim
 SHELL ["/bin/bash", "-c"]
 WORKDIR /usr/src/monad-bft
 
