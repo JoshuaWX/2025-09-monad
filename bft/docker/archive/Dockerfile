@@ -1,4 +1,4 @@
-FROM ubuntu:25.04 AS base
+FROM ubuntu:questing-20251007 AS base
 
 WORKDIR /usr/src/monad-bft
 
