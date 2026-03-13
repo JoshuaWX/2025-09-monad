@@ -1,5 +1,5 @@
 # Builder image used in Rust build pipelines
-FROM ubuntu:25.04 AS base
+FROM ubuntu:questing-20251007 AS base
 
 RUN apt update && apt install -y \
   binutils \
